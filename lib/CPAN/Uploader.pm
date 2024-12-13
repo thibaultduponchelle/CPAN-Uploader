@@ -19,7 +19,7 @@ use HTTP::Request::Common qw(POST);
 use HTTP::Status;
 use LWP::UserAgent;
 
-my $UPLOAD_URI = 'http://0.0.0.0:4444/pause/authenquery?ACTION=add_uri';
+my $UPLOAD_URI = 'http://0.0.0.0:5555/pause/authenquery?ACTION=add_uri';
 
 =method upload_file
 
